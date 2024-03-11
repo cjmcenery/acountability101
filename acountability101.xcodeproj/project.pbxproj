@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C36A4042B9E92DC009CDF29 /* InviteUserToGroupPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C36A4032B9E92DC009CDF29 /* InviteUserToGroupPopover.swift */; };
 		1C573E432B9D266000F87F53 /* acountability101App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C573E422B9D266000F87F53 /* acountability101App.swift */; };
 		1C573E452B9D266000F87F53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C573E442B9D266000F87F53 /* ContentView.swift */; };
 		1C573E472B9D266200F87F53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C573E462B9D266200F87F53 /* Assets.xcassets */; };
@@ -17,6 +18,10 @@
 		1C573E6F2B9D277F00F87F53 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C573E6E2B9D277F00F87F53 /* HomeView.swift */; };
 		1C573E722B9D2B2600F87F53 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C573E712B9D2B2600F87F53 /* Post.swift */; };
 		1C573E752B9D2B9300F87F53 /* GroupCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C573E742B9D2B9300F87F53 /* GroupCard.swift */; };
+		1C573E782B9E026E00F87F53 /* GroupsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C573E772B9E026E00F87F53 /* GroupsScreen.swift */; };
+		1C573E7A2B9E042500F87F53 /* GroupPreviewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C573E792B9E042500F87F53 /* GroupPreviewCard.swift */; };
+		1C573E7C2B9E06D500F87F53 /* CreateGroupScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C573E7B2B9E06D500F87F53 /* CreateGroupScreen.swift */; };
+		1C573E812B9E5BFF00F87F53 /* CreatePostTypePopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C573E802B9E5BFF00F87F53 /* CreatePostTypePopoverView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C36A4032B9E92DC009CDF29 /* InviteUserToGroupPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteUserToGroupPopover.swift; sourceTree = "<group>"; };
 		1C573E3F2B9D266000F87F53 /* acountability101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = acountability101.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C573E422B9D266000F87F53 /* acountability101App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acountability101App.swift; sourceTree = "<group>"; };
 		1C573E442B9D266000F87F53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +56,10 @@
 		1C573E6E2B9D277F00F87F53 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1C573E712B9D2B2600F87F53 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		1C573E742B9D2B9300F87F53 /* GroupCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCard.swift; sourceTree = "<group>"; };
+		1C573E772B9E026E00F87F53 /* GroupsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsScreen.swift; sourceTree = "<group>"; };
+		1C573E792B9E042500F87F53 /* GroupPreviewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupPreviewCard.swift; sourceTree = "<group>"; };
+		1C573E7B2B9E06D500F87F53 /* CreateGroupScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupScreen.swift; sourceTree = "<group>"; };
+		1C573E802B9E5BFF00F87F53 /* CreatePostTypePopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostTypePopoverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,9 +148,11 @@
 		1C573E6C2B9D275300F87F53 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				1C573E7D2B9E5A4300F87F53 /* components */,
 				1C573E762B9E00D100F87F53 /* screens */,
 				1C573E6E2B9D277F00F87F53 /* HomeView.swift */,
 				1C573E742B9D2B9300F87F53 /* GroupCard.swift */,
+				1C573E792B9E042500F87F53 /* GroupPreviewCard.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -156,8 +168,19 @@
 		1C573E762B9E00D100F87F53 /* screens */ = {
 			isa = PBXGroup;
 			children = (
+				1C573E772B9E026E00F87F53 /* GroupsScreen.swift */,
+				1C573E7B2B9E06D500F87F53 /* CreateGroupScreen.swift */,
 			);
 			path = screens;
+			sourceTree = "<group>";
+		};
+		1C573E7D2B9E5A4300F87F53 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				1C573E802B9E5BFF00F87F53 /* CreatePostTypePopoverView.swift */,
+				1C36A4032B9E92DC009CDF29 /* InviteUserToGroupPopover.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,7 +316,12 @@
 				1C573E6F2B9D277F00F87F53 /* HomeView.swift in Sources */,
 				1C573E452B9D266000F87F53 /* ContentView.swift in Sources */,
 				1C573E752B9D2B9300F87F53 /* GroupCard.swift in Sources */,
+				1C573E7C2B9E06D500F87F53 /* CreateGroupScreen.swift in Sources */,
+				1C36A4042B9E92DC009CDF29 /* InviteUserToGroupPopover.swift in Sources */,
+				1C573E782B9E026E00F87F53 /* GroupsScreen.swift in Sources */,
+				1C573E812B9E5BFF00F87F53 /* CreatePostTypePopoverView.swift in Sources */,
 				1C573E432B9D266000F87F53 /* acountability101App.swift in Sources */,
+				1C573E7A2B9E042500F87F53 /* GroupPreviewCard.swift in Sources */,
 				1C573E722B9D2B2600F87F53 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
